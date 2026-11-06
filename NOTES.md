@@ -461,3 +461,183 @@ Topics to be covered:
 - Diabetes prediction.
 - Model results visualization.
 - Dashboard deployment.
+
+
+
+# Day 3 – Machine Learning: Logistic Regression
+
+## 1. What is Logistic Regression?
+
+Logistic Regression is a supervised machine learning algorithm used for classification problems.
+
+In this project, it predicts whether a patient belongs to:
+- 0: No diabetes
+- 1: Diabetes
+
+## 2. Important Python Functions
+
+- LogisticRegression(): Creates the classification model.
+- model.fit(): Trains the model.
+- model.predict(): Predicts outcomes.
+- accuracy_score(): Calculates prediction accuracy.
+- confusion_matrix(): Shows correct and incorrect predictions.
+- classification_report(): Displays precision, recall and F1-score.
+
+## 3. Model Results
+
+- Accuracy: 70.78%
+- Test records: 154
+- Correct predictions: 109
+
+## 4. Confusion Matrix
+
+[[82, 18],
+ [27, 27]]
+
+- True Negative: 82
+- False Positive: 18
+- False Negative: 27
+- True Positive: 27
+
+## 5. Important Learning
+
+Accuracy alone is not sufficient to evaluate a healthcare prediction model.
+
+Recall is especially important because a false negative means an actual positive case was predicted as negative.
+
+## 6. Interview Question
+
+Q: What is Logistic Regression?
+
+Answer: Logistic Regression is a supervised classification algorithm that estimates the probability of a class using the logistic (sigmoid) function.
+
+
+# Decision Tree Classification
+
+## 1. What is a Decision Tree?
+
+A Decision Tree is a supervised machine learning algorithm used for classification and regression.
+
+It makes predictions by splitting data into branches based on feature values.
+
+## 2. Important Parameters
+
+- max_depth: Controls the maximum depth of the tree.
+- random_state: Ensures reproducible results.
+- fit(): Trains the model.
+- predict(): Generates predictions.
+
+## 3. Model Results
+
+- Algorithm: Decision Tree
+- Maximum depth: 4
+- Accuracy: 78.57%
+- Testing records: 154
+
+## 4. Confusion Matrix
+
+[[84, 16],
+ [17, 37]]
+
+- True Negative: 84
+- False Positive: 16
+- False Negative: 17
+- True Positive: 37
+
+## 5. Comparison with Logistic Regression
+
+- Logistic Regression accuracy: 70.78%
+- Decision Tree accuracy: 78.57%
+
+Decision Tree performed better on this test split.
+
+## 6. Interview Question
+
+Q: What is a Decision Tree?
+
+Answer: A Decision Tree is a supervised learning algorithm that makes predictions using a tree-like structure of decision rules.
+
+
+# Model Comparison
+
+## Algorithms Compared
+1. Logistic Regression
+2. Decision Tree
+
+## Evaluation Metrics
+
+| Metric | Logistic Regression | Decision Tree |
+|---|---:|---:|
+| Accuracy | 70.78% | 78.57% |
+| Precision | 60.00% | 69.81% |
+| Recall | 50.00% | 68.52% |
+| F1-score | 54.55% | 69.16% |
+
+## Observations
+
+- Decision Tree achieved higher accuracy.
+- Decision Tree achieved higher recall for Outcome 1.
+- Decision Tree achieved a higher F1-score.
+- Decision Tree performed better on this test split.
+
+## Important Learning
+
+Accuracy measures overall correctness.
+
+Precision measures how many predicted positive cases were actually positive.
+
+Recall measures how many actual positive cases were correctly identified.
+
+F1-score is the harmonic mean of precision and recall.
+
+## Conclusion
+
+Decision Tree is the better-performing model among the two models tested so far.
+
+Further validation is required before considering it suitable for healthcare use.
+
+
+# Random Forest Classification
+
+## 1. What is Random Forest?
+
+Random Forest is a supervised machine learning algorithm that combines multiple decision trees to make predictions.
+
+It uses an ensemble learning technique.
+
+## 2. Important Parameters
+
+- n_estimators=200: Number of decision trees.
+- max_depth=5: Maximum depth of each tree.
+- random_state=42: Ensures reproducibility.
+
+## 3. Model Results
+
+- Accuracy: 74.03%
+- Precision (Outcome 1): 66%
+- Recall (Outcome 1): 53.70%
+- F1-score (Outcome 1): 59.18%
+
+## 4. Confusion Matrix
+
+[[85, 15],
+ [25, 29]]
+
+- True Negative: 85
+- False Positive: 15
+- False Negative: 25
+- True Positive: 29
+
+## 5. Important Learning
+
+Random Forest combines multiple decision trees.
+
+However, an ensemble model does not always outperform an individual decision tree.
+
+Model performance must be evaluated using multiple metrics.
+
+## 6. Interview Question
+
+Q: What is Random Forest?
+
+Answer: Random Forest is an ensemble learning algorithm that combines multiple decision trees and uses their predictions to produce a final result.

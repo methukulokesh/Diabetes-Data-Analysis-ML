@@ -1,0 +1,34 @@
+# Day 3 – Daily Progress Report
+
+## Project: Healthcare AI Assistant – Diabetes Prediction and Analysis
+
+### Today's Objectives
+Begin machine learning model development.
+
+### Work Completed
+
+1. Studied supervised machine learning classification.
+2. Implemented Logistic Regression.
+3. Trained the model using the prepared training dataset.
+4. Generated predictions using the testing dataset.
+5. Evaluated model performance using accuracy.
+6. Generated a confusion matrix.
+7. Analysed precision, recall and F1-score.
+
+### Model Results
+
+- Algorithm: Logistic Regression
+- Accuracy: 70.78%
+- Testing records: 154
+- True Negatives: 82
+- False Positives: 18
+- False Negatives: 27
+- True Positives: 27
+
+### Key Learning
+
+Accuracy alone is not sufficient for healthcare prediction. Recall for the diabetes-positive class is particularly important.
+
+### Next Step
+
+Implement and evaluate a Decision Tree classifier.
