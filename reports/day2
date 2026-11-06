@@ -1,0 +1,47 @@
+
+# Daily Progress Report – 5 November 2026
+
+## Project: Healthcare AI Assistant – Diabetes Prediction and Analysis
+
+### Today's Objectives
+Complete Phase 2 – Data Cleaning and Preprocessing.
+
+### Work Completed
+
+1. Created `src/data_cleaning.py`.
+2. Identified invalid zero values in medical measurement columns.
+3. Replaced invalid zeros with NaN.
+4. Analyzed missing-value counts and percentages.
+5. Compared mean and median values.
+6. Created `src/preprocessing.py`.
+7. Split the dataset into training and testing sets (80:20).
+8. Applied median imputation using SimpleImputer.
+9. Applied feature scaling using StandardScaler.
+10. Saved processed training and testing datasets.
+11. Updated technical learning notes with Phase 2 concepts.
+
+### Dataset Results
+
+| Metric | Result |
+|---|---:|
+| Original records | 768 |
+| Training records | 614 |
+| Testing records | 154 |
+| Features | 8 |
+| Missing values after imputation | 0 |
+
+### Key Learning
+
+- Data cleaning and missing-value handling.
+- Median imputation.
+- Train-test splitting.
+- Feature scaling.
+- Preventing data leakage.
+
+### Phase Status
+
+Phase 1 – Exploratory Data Analysis: Completed.
+
+Phase 2 – Data Cleaning and Preprocessing: Completed.
+
+Next: Phase 3 – Machine Learning Model Building.

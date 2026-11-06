@@ -1,13 +1,13 @@
-# Raw dataset
-data/raw/*.csv
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 
 # Virtual environments
-.venv/
 venv/
+.venv/
 
-# Editor files
-.vscode/
+# Raw dataset
+data/raw/
+
+# Temporary files
+.ipynb_checkpoints/
