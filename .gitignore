@@ -14,5 +14,6 @@ data/raw/
 # Saved machine learning models
 models/*.joblib
 
+!models/best_diabetes_model.joblib
 # Processed datasets
 data/processed/
