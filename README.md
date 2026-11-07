@@ -204,9 +204,9 @@ Healthcare-AI-Assistant/
 - Improve model performance and probability calibration.
 - Add additional classification algorithms.
 - Develop more detailed healthcare visualizations.
-- Deploy the application online.
 - Add explainable AI techniques such as SHAP.
 
+- Add model explainability using SHAP.
 ## 👨‍💻 Author
 
 **B.Tech Computer Science and Engineering – Data Science**
