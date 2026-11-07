@@ -11,3 +11,8 @@ data/raw/
 
 # Temporary files
 .ipynb_checkpoints/
+# Saved machine learning models
+models/*.joblib
+
+# Processed datasets
+data/processed/

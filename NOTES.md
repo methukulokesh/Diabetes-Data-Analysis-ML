@@ -641,3 +641,39 @@ Model performance must be evaluated using multiple metrics.
 Q: What is Random Forest?
 
 Answer: Random Forest is an ensemble learning algorithm that combines multiple decision trees and uses their predictions to produce a final result.
+
+# Probability Calibration
+
+## What is Probability Calibration?
+
+Probability calibration adjusts a model's predicted probabilities
+so that they better reflect the observed frequency of outcomes.
+
+## Brier Score
+
+Brier Score measures the difference between predicted probabilities
+and actual outcomes.
+
+A lower Brier Score indicates better probability quality.
+
+## Experimental Results
+
+| Metric | Original Model | Calibrated Model |
+|---|---:|---:|
+| Brier Score | 0.1809 | 0.1756 |
+
+## Observation
+
+The calibrated model achieved a lower Brier Score than the original
+model, indicating a small improvement in probability estimation.
+
+However, the calibrated model's recall was 35.19%.
+Further evaluation is required before selecting it for deployment.
+
+## Interview Question
+
+Q: Why is probability calibration important in healthcare ML?
+
+A: It helps make predicted probabilities more reliable.
+For example, a predicted 70% risk should correspond to approximately
+70% positive outcomes among comparable predictions.
